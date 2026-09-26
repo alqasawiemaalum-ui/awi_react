@@ -1,12 +1,12 @@
 .pokemon-app {
+  width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 32px 20px;
-  background:
-    radial-gradient(circle at top, rgba(110, 231, 183, 0.25), transparent 30%),
-    linear-gradient(135deg, #02130f 0%, #0a2f2d 18%, #0f3d3c 45%, #0b1f2f 100%);
+  box-sizing: border-box;
+  background: transparent;
 }
 
 .pokemon-panel {
